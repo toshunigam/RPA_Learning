@@ -116,7 +116,7 @@
               <Switch.Default>
                 <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box - Default case" sap:VirtualizedContainerService.HintSize="333.6,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;The file &quot; + filename + &quot; is not named as expected (ending with date)&quot;]" />
               </Switch.Default>
-              <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" x:Key="2022_06_15" Destination="[pdfDirectory + &quot;\pdf 150622&quot;]" DisplayName="MoveFile to 15th june pdf file" sap:VirtualizedContainerService.HintSize="433.6,160" sap2010:WorkflowViewState.IdRef="MoveFile_1" Path="[file.FullName]" />
+              <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" x:Key="2022_06_15" Destination="[pdfDirectory + &quot;\pdf\&quot;]" DisplayName="MoveFile to 15th june pdf file" sap:VirtualizedContainerService.HintSize="433.6,160" sap2010:WorkflowViewState.IdRef="MoveFile_1" Path="[file.FullName]" />
             </Switch>
           </Sequence>
         </ActivityAction>
